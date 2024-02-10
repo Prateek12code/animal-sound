@@ -1,0 +1,80 @@
+body{
+    font-family: 'Space Mono', monospace;
+}
+
+.header_div h2
+{
+    font-weight: 700;
+    color: teal;
+
+}
+
+.header_div
+{
+    background-color: bisque;
+    color: brown;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.header_div:hover
+{
+    background-color: beige;
+    color: lightsalmon;
+}
+
+.main_div{
+    margin: 5px;
+    padding: 5px;
+    background: lightsalmon;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+    height: 80vh;
+    font-weight: 700;
+
+}
+
+.main_div button{
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    
+}
+
+.main_div button:hover{
+    height: 40px;
+    width: 100px;
+    border: 3px solid teal;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.copy_right_footer{
+    background: lightgrey;
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.copy_right_footer:hover{
+    background: blanchedalmond;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    position: fixed;
+    width: 100%;
+}
